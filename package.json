@@ -58,7 +58,8 @@
     "react-native-gesture-handler": "~2.24.0",
     "react-native-get-random-values": "~1.11.0",
     "react-native-maps": "^1.24.3",
-    "react-native-mmkv": "^3.2.0",
+    "react-native-mmkv": "^4.0.0",
+    "react-native-nitro-modules": "^0.31.2",
     "react-native-reanimated": "~3.17.4",
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "~4.10.0",
@@ -88,5 +89,10 @@
   "patchedDependencies": {
     "react-native@0.79.2": "patches/react-native@0.79.2.patch",
     "expo-asset@11.1.5": "patches/expo-asset@11.1.5.patch"
-  }
+  },
+  "trustedDependencies": [
+    "react-native-mmkv",
+    "react-native-nitro-modules",
+    "unrs-resolver"
+  ]
 }
